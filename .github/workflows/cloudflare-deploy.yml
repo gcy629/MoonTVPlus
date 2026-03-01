@@ -18,7 +18,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9  # 显式指定 pnpm 大版本，避免兼容性问题
+          version: 10  # 显式指定 pnpm 大版本，避免兼容性问题
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
